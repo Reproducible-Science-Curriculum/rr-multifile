@@ -129,8 +129,8 @@ pop_russia <- pop_dat %>%
   filter(country %in% c("Russia","USSR"))
 (ggplot(pop_russia, aes(x = year, y = pop, color = country)) +
    geom_line())
-xyplot(pop ~ year, type = "l", 
-            groups = country[drop = TRUE], auto.key = TRUE))
+#xyplot(pop ~ year, type = "l",
+#            groups = country[drop = TRUE], auto.key = TRUE)
 ## huh?
 ## pop data present for USSR *and* Russia, 1950 - 2008
 ## USSR pop >> Russia pop, USSR presumably includes Russia??
