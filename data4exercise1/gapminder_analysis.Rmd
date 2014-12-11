@@ -1,0 +1,45 @@
+---
+title: 'Gapminder: cleaning and analysis'
+author: ''
+date: ''
+output:
+  html_document:
+    fig_height: 3
+    fig_width: 6
+---
+
+## Cleaning and combining the raw data
+
+Extract the population data.
+
+```{r clean_01}
+source("01_extract-from-excel-pop.r")
+```
+
+```{r clean_02}
+source("02_extract-from-excel-lifeExp.r")
+```
+
+```{r clean_03}
+source("03_extract-from-excel-gdpPercap.r")
+```
+
+```{r clean_04}
+source("04_merge-pop-lifeExp-gdpPercap.r")
+```
+
+```{r clean_05}
+source("05_smell-test-gap-merged.r")
+```
+
+```{r clean_06}
+source("06_fill-and-fix-continent.r")
+```
+
+```{r clean_07}
+source("07_filter-every-five-years.r")
+```
+
+```{r read_data}
+gapminder <- read.table("gapminder.tsv", sep="\t", stringsAsFactors=TRUE)
+```
