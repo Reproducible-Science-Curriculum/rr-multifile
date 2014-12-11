@@ -1,0 +1,12 @@
+##Exercise One
+
+* Download the Exercise One Directory Tar file (TODO)
+* Uncompress and browse the contents of this Directory
+* Execute the project.Rmd
+* Answer the following Questions:
+  * Which new files were produced?
+  * Which files were used as inputs?
+  * Which files are code files used by project.Rmd?
+  * Where did you get the input files?
+* Group together, and create a system that you could use to make it easier
+to answer these questions (think about your future you, 6 months from now)
