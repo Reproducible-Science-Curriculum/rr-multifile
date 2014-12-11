@@ -25,18 +25,18 @@ Graph Illustrating effort verse time. Yes, this is a little painful, but think o
    Come back together to discuss students' solutions; point them
    toward a modified version of Bill Nobel's approach.
 
-       project.Rmd
-       doc/paper/
-       data/raw/raw1.csv
-       data/raw/raw2.csv
-       data/raw/raw3.csv
-       data/clean/clean.csv
-       code/clean1.R
-       ...
-       code/clean7.R
-       results/project.md
-       results/project.html
-       results/figure/sweden.png
+        project.Rmd
+        doc/paper/
+        data/raw/raw1.csv
+        data/raw/raw2.csv
+        data/raw/raw3.csv
+        data/clean/clean.csv
+        code/clean1.R
+        ...
+        code/clean7.R
+        results/project.md
+        results/project.html
+        results/figure/sweden.png
 
 3. Discussion of paths, particularly regarding relative vs absolute paths.
       - what we had to change (paths) to redirect files
