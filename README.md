@@ -13,6 +13,7 @@ Graph Illustrating effort verse time. Yes, this is a little painful, but think o
 - now have a bunch of files (raw and clean data, scripts, results); how to organize them?
     - README file explaining everything
     - organize into subfolders (separating code from data)
+    
 - Potentially re-run .Rmd: have them actively reorganize and change paths
 - Get a version with files reorganized; add some new analysis to the main Rmd file
 - Lecture interlude: 
@@ -25,12 +26,14 @@ Graph Illustrating effort verse time. Yes, this is a little painful, but think o
 - metadata exercise: what metadata will you want to record in order to explain what files are what, and which ones produce which others
       - for yourself, coming back to this 6 months from now
       - for a collaborator
+      
 - versions: how do they keep track of versions of things? (discussion in small groups and then come back together)
   Discussion of 3 main options:
       - periodic zipping of project directory
       - Time Machine or other backup system
       - project on dropbox
       - github
+      
 - (Lecture interlude: demonstration of GitHub)      
 
 
