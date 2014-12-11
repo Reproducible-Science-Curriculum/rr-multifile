@@ -117,8 +117,3 @@ ggplot(china_tidy, aes(x = year, y = value)) +
 write.table(gap_dat,
             "07_gap-every-five-years.tsv",
             quote = FALSE, sep = "\t", row.names = FALSE)
-
-gapminder <- gap_dat
-
-## finally ready to save data for the package
-save(gapminder, file = "gapminder.rdata")
