@@ -1,0 +1,5 @@
+##Exercise 3
+
+* Work together to modify the project.Rmd script to add a report on Norway (TODO
+  or some other datapoint).
+(TODO) suggest things that they need to add (code examples?)

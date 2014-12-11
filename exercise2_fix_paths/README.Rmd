@@ -1,0 +1,5 @@
+## Exercise 2
+
+* After organizing the project structure, re-execute project.Rmd.
+  * What happens?
+* Fix project.Rmd to work with your new organization system.
