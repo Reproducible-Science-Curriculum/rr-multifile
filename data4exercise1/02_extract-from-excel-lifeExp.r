@@ -59,13 +59,15 @@ unique(le_raw$year_raw)
 
 ## must investigate obviously invalid values for year
 (needs_a_look <- which(le_raw$year_raw %in% c("", "5")))
-le_raw[(min(needs_a_look) - 4):(max(needs_a_look) + 4), ]
+if(length(needs_a_look) > 0) {
+  le_raw[(min(needs_a_look) - 4):(max(needs_a_look) + 4), ]
 ## early 1800s, Pakistan
 ## this will never survive my year filter so just make this go away
 ## BTW nothing visible in Excel; I can see gaps in row numbers but 'unhide' does
 ## nothing ... Google tell me to "unset filters" from data menu, which does
 ## indeed reveal the hidden rows
-le_raw$year_raw[needs_a_look] <- NA_character_
+  le_raw$year_raw[needs_a_look] <- NA_character_
+}
 
 le_raw$year_raw %>% n_distinct #209
 le_raw$year_raw %>% unique
