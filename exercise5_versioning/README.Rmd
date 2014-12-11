@@ -1,0 +1,18 @@
+##Exercise 5 Versioning
+
+Group together and discuss systems that could be used to capture versions of
+the state of your project.  Here are some questions to ponder:
+
+* When you added the Norway analysis to the project.Rmd script:
+  * what files were overwritten in the process?
+  * what if you broke one of the underlying code files?  Would you be able
+  to get it back?
+  * what if you wanted to go back and look at the overall result produced
+  with just the Sweden data? Could you do that easily?
+* Is it easy for you to add a new analysis to this project, or do you worry
+  that you are going to 'break' the existing one?
+* How much storage does your solution require?
+* In order for you to 'roll back' to a previous state:
+  * Does your system require you to have something other than your computer with
+  you?
+  * Does your system require you to fiddle the paths in the project.Rmd or code?
