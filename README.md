@@ -1,11 +1,11 @@
-#Purpose
+##Purpose
 To teach students to VERB [and VERB] the way that organization can be used to inform themselves and others about the project throughout its life
 
-#Motivation
+##Motivation
 Why is it worth organizing?
 Graph Illustrating effort verse time. Yes, this is a little painful, but think of how painful it will be during publication process. 
 
-#Overview of exercises
+##Overview of exercises
 - get a bunch of files (raw data, scripts, overall .Rmd): run the whole thing to produce clean data and output files
 - now have a bunch of files (raw and clean data, scripts, results); how to organize them?
     - README file explaining everything
