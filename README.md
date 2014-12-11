@@ -5,6 +5,9 @@ To teach students to VERB [and VERB] the way that organization can be used to in
 Why is it worth organizing?
 Graph Illustrating effort verse time. Yes, this is a little painful, but think of how painful it will be during publication process. 
 
+![graph]
+(https://raw.githubusercontent.com/tracykteal/shell-genomics/master/img/gvng.jpg)
+
 ##Overview of exercises
 - get a bunch of files (raw data, scripts, overall .Rmd): run the whole thing to produce clean data and output files
 - now have a bunch of files (raw and clean data, scripts, results); how to organize them?
