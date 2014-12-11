@@ -1,0 +1,14 @@
+##Exercise 4
+
+You will work together in groups to discuss ways to keep track of Metadata not
+included into the directory structure of the project.  Here are some questions
+to keep in mind while doing so:
+
+* If you gave your directory to a friend, would they be able to use it?
+* If they downloaded it from the internet, would they be able to tell
+that all files downloaded properly?
+* Would they be able to identify the specific input files used to produce
+each specific results file?
+* Would they know how to cite you?
+* Would they be able to tell which data are changed/deleted during the cleaning
+step, and why?
