@@ -28,7 +28,7 @@ Graph Illustrating effort verse time. Yes, this is a little painful, but think o
       - for a collaborator
       
 - versions: how do they keep track of versions of things? (discussion in small groups and then come back together)
-  Discussion of 3 main options:
+
       - periodic zipping of project directory
       - Time Machine or other backup system
       - project on dropbox
