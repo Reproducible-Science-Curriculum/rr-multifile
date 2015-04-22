@@ -1,3 +1,5 @@
+_Note: This lesson is currently orphaned. People interested in taking a lead on further developing it are welcome to step forward. Post an issue expressing your interest and where you would like this to go, or file a pull request._
+
 ##Purpose
 To teach students to VERB [and VERB] the way that organization can be used to inform themselves and others about the project throughout its life
 
